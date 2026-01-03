@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Toolify | Free Online Tools</title>
+<link rel="stylesheet" href="style.css">
+
+<!-- Google AdSense -->
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-XXXXXXXXXXXX"
+crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+<div class="wrapper">
+
+  <!-- 🔝 Top Ad -->
+  <div class="ad">
+    <ins class="adsbygoogle"
+         style="display:block"
+         data-ad-client="ca-pub-XXXXXXXXXXXX"
+         data-ad-slot="1111111111"
+         data-ad-format="auto"
+         data-full-width-responsive="true"></ins>
+    <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
+  </div>
+
+  <div class="container">
+    <h1>🧰 Toolify</h1>
+    <p>أدوات مجانية أونلاين سريعة وسهلة</p>
+
+    <!-- Password Generator -->
+    <div class="tool">
+      <h3>🔐 Password Generator</h3>
+      <input id="password" readonly>
+      <button onclick="genPass()">إنشاء كلمة مرور</button>
+    </div>
+
+    <!-- QR Generator -->
+    <div class="tool">
+      <h3>📱 QR Code Generator</h3>
+      <input id="qrText" placeholder="اكتب النص أو الرابط">
+      <button onclick="genQR()">إنشاء QR</button>
+      <img id="qrImg" style="margin-top:10px;width:150px;">
+    </div>
+
+    <!-- Text Counter -->
+    <div class="tool">
+      <h3>📝 Text Counter</h3>
+      <textarea id="text" placeholder="اكتب هنا..." oninput="countText()"></textarea>
+      <div class="result" id="count">0 حروف</div>
+    </div>
+
+    <!-- Middle Ad -->
+    <div class="ad">
+      <ins class="adsbygoogle"
+           style="display:inline-block;width:300px;height:250px"
+           data-ad-client="ca-pub-XXXXXXXXXXXX"
+           data-ad-slot="2222222222"></ins>
+      <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
+    </div>
+
+    <!-- Color Generator -->
+    <div class="tool">
+      <h3>🎨 Color Generator</h3>
+      <input id="color" readonly>
+      <button onclick="genColor()">توليد لون</button>
+    </div>
+
+    <!-- BMI Calculator -->
+    <div class="tool">
+      <h3>⚖️ BMI Calculator</h3>
+      <input id="weight" placeholder="الوزن (كجم)">
+      <input id="height" placeholder="الطول (متر)">
+      <button onclick="calcBMI()">احسب BMI</button>
+      <div class="result" id="bmi"></div>
+    </div>
+
+    <!-- 🔽 Bottom Ad -->
+    <div class="ad">
+      <ins class="adsbygoogle"
+           style="display:block"
+           data-ad-client="ca-pub-XXXXXXXXXXXX"
+           data-ad-slot="3333333333"
+           data-ad-format="auto"
+           data-full-width-responsive="true"></ins>
+      <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
+    </div>
+
+  </div>
+</div>
+
+<script src="main.js"></script>
+</body>
+</html>
